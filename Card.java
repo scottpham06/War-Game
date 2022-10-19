@@ -1,33 +1,37 @@
+public class Card {
 
-/**
- * Write a description of class Card here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Card
-{
-    // instance variables - replace the example below with your own
-    private int x;
+    private int cardNum;
+    final static String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
+    final static String[] ranks = {"2", "3","4","5","6","7","8", "9","10", "Jack", "Queen", "King", "Ace"};
 
-    /**
-     * Constructor for objects of class Card
-     */
-    public Card()
-    {
-        // initialise instance variables
-        x = 0;
+    public void Spades() {
+        for(int j = 0; j< ranks.length; j++) {
+            System.out.println(ranks[j] +" of "+ suits[0]);
+
+        }
+
+    }
+    public void Hearts() {
+        for(int j = 0; j< ranks.length; j++) {
+            System.out.println(ranks[j] +" of "+ suits[1]);
+
+        }
+
+    }
+    public void Diamonds() {
+        for(int j = 0; j< ranks.length; j++) {
+            System.out.println(ranks[j] +" of "+ suits[2]);
+
+        }
+
+    }
+    public void Clubs() {
+        for(int j = 0; j< ranks.length; j++) {
+            System.out.println(ranks[j] +" of "+ suits[3]);
+
+        }
+
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
-}
+}    
+ 

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Card
+comment1.params=
+comment1.target=void\ Spades()
+comment2.params=
+comment2.target=void\ Hearts()
+comment3.params=
+comment3.target=void\ Diamonds()
+comment4.params=
+comment4.target=void\ Clubs()
+numComments=5
