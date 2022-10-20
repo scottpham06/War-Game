@@ -1,4 +1,4 @@
-
+import org.apache.commons.lang.ArrayUtils;
 /**
  * Write a description of class Deck here.
  *
@@ -19,15 +19,11 @@ public class Deck
         x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    
+    public String[] fullDeck()
     {
-        // put your code here
-        return x + y;
+        String[] fullDeck;
+        fullDeck = Array.addAll(Card.Spades() + Card.Hearts()+ Card.Diamonds() + Card.Clubs());
+        return fullDeck;
     }
 }
