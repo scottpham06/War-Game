@@ -1,10 +1,10 @@
 public class Card {
 
-    private int cardNum;
+  //  private int cardNum;
     final static String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
     final static String[] ranks = {"2", "3","4","5","6","7","8", "9","10", "Jack", "Queen", "King", "Ace"};
 
-    public static String[] Spades() {
+    public String[] Spades() {
         String[] arr = new String[ranks.length];
         for(int j = 0; j< ranks.length; j++) {
             arr[j] = (ranks[j] +" of "+ suits[0]);
@@ -13,7 +13,7 @@ public class Card {
         
         return arr;
     }
-     public static String[] Hearts() {
+     public  String[] Hearts() {
         String[] arr = new String[ranks.length];
         for(int j = 0; j< ranks.length; j++) {
             arr[j] = (ranks[j] +" of "+ suits[1]);
@@ -22,7 +22,7 @@ public class Card {
         
         return arr;
     }
-     public static String[] Diamonds() {
+     public String[] Diamonds() {
         String[] arr = new String[ranks.length];
         for(int j = 0; j< ranks.length; j++) {
             arr[j] = (ranks[j] +" of "+ suits[2]);
@@ -31,7 +31,7 @@ public class Card {
         
         return arr;
     }
-     public static String[] Clubs() {
+     public String[] Clubs() {
         String[] arr = new String[ranks.length];
         for(int j = 0; j< ranks.length; j++) {
             arr[j] = (ranks[j] +" of "+ suits[3]);
